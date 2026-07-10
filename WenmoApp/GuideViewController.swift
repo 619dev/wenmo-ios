@@ -43,7 +43,7 @@ final class GuideViewController: UIViewController {
         settingsButton.addTarget(self, action: #selector(openSettings), for: .touchUpInside)
 
         let instructions = UILabel()
-        instructions.text = "在“键盘”中选择“添加新键盘…”，添加“问墨”。无需开启“允许完全访问”。"
+        instructions.text = "在“键盘”中选择“添加新键盘…”，添加“问墨”。无需开启“允许完全访问”。\n\n键盘下方的麦克风是 iOS 系统听写按钮，并非问墨功能；如不需要，可在“设置 → 通用 → 键盘”中关闭“启用听写”。"
         instructions.font = .preferredFont(forTextStyle: .callout)
         instructions.textColor = .secondaryLabel
         instructions.textAlignment = .center
